@@ -3,9 +3,12 @@
 from flask import Flask, flash, redirect, render_template, request, session, abort, jsonify
 from sklearn.externals import joblib
 
+#   from settings import PROJECT_ROOT
+#import os
+
 app = Flask(__name__)
 
-PEOPLE_FOLDER = os.path.join('static', 'people_photo')
+#PEOPLE_FOLDER = os.path.join('static', 'people_photo')
 app.config['UPLOAD_FOLDER'] = PEOPLE_FOLDER
 
 model = joblib.load('decisiontreeiris.pkl')
