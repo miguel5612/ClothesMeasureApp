@@ -9,7 +9,7 @@ from sklearn.externals import joblib
 app = Flask(__name__)
 
 #PEOPLE_FOLDER = os.path.join('static', 'people_photo')
-app.config['UPLOAD_FOLDER'] = PEOPLE_FOLDER
+#app.config['UPLOAD_FOLDER'] = PEOPLE_FOLDER
 
 model = joblib.load('decisiontreeiris.pkl')
 
