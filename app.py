@@ -5,12 +5,16 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 
-@app.route('/')
-def index():
-    """Return homepage."""
-    json_data = {'Hello': 'World!'}
-    return jsonify(json_data)
+@app.route('/', methods=['GET'])
+def index(name=None):
+    return render_template('index.html', name=name)
+@app.route('/l', methods=['GET'])
+def lol():
+    return "lol"
 
+@app.route('/favicon.ico')
+def favicon():
+    return 'no hay'
 
 if __name__ == '__main__':
     app.run()
