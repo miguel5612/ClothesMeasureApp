@@ -4,8 +4,8 @@
 from flask import Flask, flash, redirect, render_template, request, session, abort, jsonify
 from sklearn.externals import joblib
 import numpy as np
-import argparse
-import imutils
+#import argparse
+#import imutils
 #import cv2
 
 
