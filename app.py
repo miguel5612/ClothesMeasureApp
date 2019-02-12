@@ -1,24 +1,4 @@
-#pip install Flask
 
-from flask import Flask, flash, redirect, render_template, request, session, abort, jsonify
-from sklearn.externals import joblib
-
-import pandas as pd
-#from matplotlib import pyplot as plt
-import matplotlib
-import numpy as np
-
-import scipy
-import imutils
-#from scipy.spatial import distance as dist
-#from imutils import perspective
-#from imutils import contours
-import argparse
-import imutils
-import cv2
-
-#   from settings import PROJECT_ROOT
-import os
 
 app = Flask(__name__)
 
@@ -55,4 +35,4 @@ def favicon():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True)
+    app.run()
