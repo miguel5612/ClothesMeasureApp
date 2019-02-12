@@ -1,4 +1,4 @@
-flask==0.10.1
+flask>=0.10.1
 scikit-learn>=0.18
 requests>=0.11.1
 numpy>=1.11.2
