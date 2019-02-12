@@ -4,7 +4,7 @@ from flask import Flask, flash, redirect, render_template, request, session, abo
 from sklearn.externals import joblib
 
 import pandas as pd
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 import numpy as np
 
 from scipy.spatial import distance as dist
