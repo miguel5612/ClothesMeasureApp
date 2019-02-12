@@ -1,3 +1,10 @@
 flask==0.10.1
 scikit-learn>=0.18
-requests==0.11.1
+requests>=0.11.1
+numpy>=1.11.2
+scipy>=0.18.1
+pandas=>0.19.0
+matplotlib>=0.86
+imutils>=0.1
+argparse>=0.1
+opencv-python>=3.1.0.0
