@@ -6,7 +6,7 @@ from sklearn.externals import joblib
 import numpy as np
 import argparse
 import imutils
-import cv2
+#import cv2
 
 
 app = Flask(__name__)
