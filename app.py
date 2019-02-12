@@ -5,11 +5,14 @@ from sklearn.externals import joblib
 
 import pandas as pd
 #from matplotlib import pyplot as plt
+import matplotlib
 import numpy as np
 
-from scipy.spatial import distance as dist
-from imutils import perspective
-from imutils import contours
+import scipy
+import imutils
+#from scipy.spatial import distance as dist
+#from imutils import perspective
+#from imutils import contours
 import argparse
 import imutils
 import cv2
