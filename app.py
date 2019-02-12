@@ -38,6 +38,10 @@ def index(name=None):
 def lol():
 	return "lol"
 
+@app.route('/favicon.ico')
+def favicon():
+    return 'no hay'
+
 #@app.route('/API/iris', methods=['POST'])
 #def ApiIris():
 #    datos = []    
